@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.item {
+  width: 100%;
+  text-align: left;
+  float: left;
+}
+.item-img{
+  width: 30px;
+  float: left;
+}
+.item-name {
+  width: 70%;
+  float: left;
+}
+.item-qty {
+  width: 10%;
+  float: left;
+}
+.item-for-exalts input {
+  width: 100%;
+  text-align: right;
+}
+.item-for-exalts{
+  width: 10%;
+  float: left;
+  text-align: right;
+}
+.item-in-exalts {
+  width: 10%;
+  float: left;
+  text-align: right;
+}
+.my-currency {
+  padding: 20px 30px;
+}
+.exalted-icon {
+  background: url(http://currency.poe.trade/static/currency_32.png?1279776205) no-repeat -825px 0;
+  width: 32px;
+}
+.owned-currency,.total-container {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.total-container {
+  padding: 25px 40%;
+}
+
+.total-in-exalts {
+  float: left;
+  width: 200px;
+}
+.total-in-exalts,
+.exalted-icon{
+  height: 32px;
+  float: left;
+  position:relative;
+  border: 1px solid grey;
+}
+
+
